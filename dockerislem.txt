@@ -1,0 +1,22 @@
+docker da bişey indirmek istiyorsanız yapmanız gereken
+
+docker desktop manageri indirin sonra ana sayfada 
+
+bu şekilde=>docker run -d -p 80:80 docker/getting-started bir yazı var bunu al kopyala eğer bu çalışmıyorsa portu değiştirip deneyin aynı
+
+işlemi sorun çözülüyor.
+
+ve cmdye yapıştır burdan docker run edilmiş olunur.Ardından indirmek istediğiniz imageleri 
+
+docker hub üzerinde arayın ardından description reviews ve tags adında üç sekmesi var bunlardan 
+
+tag olanı secin ve yeşil onaylanmış olanı seçin ve ve bunu cmdye yapıştırın burda indirmesini bekleyin image'i
+
+ardından docker desktop managerdan image kısmını açın ve log kayıtlarından çalışıp çalışmadığına bakın sonra
+
+ilgili port ne ise onu çalıştırın ve chrome üzerinden bakın çalışıyorsa o zaman işlem bitmiştir.
+
+
+eğer mongoda veya elasticsearchte log tutacaksanız o zaman loglar sizn yazdıınız komutlarla tek tek oluşur seq uygulamasında 
+
+ayrıntılı bir şekilde görülür.
